@@ -1,5 +1,5 @@
 {
-    "name": "promphp/prometheus_client_php",
+    "name": "sparkfabrik/prometheus_client_php",
     "description": "Prometheus instrumentation library for PHP applications.",
     "type": "library",
     "license": "Apache-2.0",
@@ -10,6 +10,7 @@
         }
     ],
     "replace": {
+        "promphp/prometheus_client_php": "*",
         "jimdo/prometheus_client_php": "*",
         "endclothing/prometheus_client_php": "*",
         "lkaemmerling/prometheus_client_php": "*"
