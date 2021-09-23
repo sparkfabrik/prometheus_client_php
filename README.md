@@ -1,6 +1,8 @@
 # A prometheus client library written in PHP
 
-![Tests](https://github.com/promphp/prometheus_client_php/workflows/Tests/badge.svg)
+This library is a (hopefully temporary) fork of [PromPHP/prometheus_client_php](https://github.com/PromPHP/prometheus_client_php).
+
+It includes the [PR 61](https://github.com/PromPHP/prometheus_client_php/pull/61).
 
 This library uses Redis or APCu to do the client side aggregation.
 If using Redis, we recommend running a local Redis instance next to your PHP workers.
@@ -17,7 +19,7 @@ While the first needs a separate binary running, the second just needs the [APC]
 Add as [Composer](https://getcomposer.org/) dependency:
 
 ```sh
-composer require promphp/prometheus_client_php
+composer require sparkfabrik/prometheus_client_php
 ```
 
 ## Usage
